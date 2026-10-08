@@ -1,0 +1,6 @@
+string = input().lower()
+value = string.replace(" ", "").replace("'", "")
+if value == value[::-1]:
+    print("True")
+else:
+    print("False")
