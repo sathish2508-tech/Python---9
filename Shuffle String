@@ -1,0 +1,7 @@
+word = input()
+lenght = len(word)
+new_word = ""
+for i in range(lenght):
+    value = int(input())
+    new_word = new_word + word[value]
+print(new_word)
