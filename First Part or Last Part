@@ -1,0 +1,6 @@
+first_word = input().strip()
+second_word = input().strip()
+if first_word.startswith(second_word) or first_word.endswith(second_word):
+    print("True")
+else:
+    print("False")
