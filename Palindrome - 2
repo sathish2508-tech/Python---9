@@ -1,0 +1,10 @@
+word = input()
+string = word.lower()
+reverse = ""
+for char in string:
+    reverse = char + reverse
+    if reverse == string:
+        result = "True"
+    else:
+        result = "False"
+print(result)
