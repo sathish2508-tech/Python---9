@@ -1,0 +1,12 @@
+N = input()
+lenght = len(N)
+count = 0 
+for i in range(lenght):
+    each_n = N[i]
+    string = str(0)
+    if each_n == string:
+        count = count + 1 
+if count > 3:
+    print("Count of zeroes is greater than three")
+else:
+    print("Count of zeroes is not greater than three")
