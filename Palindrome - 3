@@ -1,0 +1,9 @@
+string = input().upper()
+value = ""
+for char in string:
+    value = char +  value
+    if value == string:
+        result = "Palindrome"
+    else:
+        result = "Not a Palindrome"
+print(result)
