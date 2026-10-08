@@ -1,0 +1,9 @@
+word = input()
+sec_word = ""
+result = False
+for char in word:
+    sec_word = char + sec_word
+    polindrom = word == sec_word
+    if polindrom:
+        result = True
+print(result)
