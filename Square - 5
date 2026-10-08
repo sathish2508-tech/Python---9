@@ -1,0 +1,7 @@
+A = int(input())
+B = int(input())
+times = ""
+for i in range(B):
+    times = times + str(A+i) + " "
+for i in range(B):
+    print(times)
