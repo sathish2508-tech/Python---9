@@ -1,0 +1,12 @@
+string = input()
+lenght = len(string)
+result = string[0]
+for char in range(1,lenght):
+    remain_string = string[char]
+    uppercase = remain_string.upper()
+    lowercase = remain_string.lower()
+    if remain_string == uppercase:
+        result = result + "-" + lowercase
+    else:
+        result = result + remain_string
+print(result)
