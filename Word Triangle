@@ -1,0 +1,4 @@
+Word = input()
+lenght = len(Word)
+for i in range(1, lenght + 1):
+    print(Word[:i])
