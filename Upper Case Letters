@@ -1,0 +1,7 @@
+word = input()
+char = ""
+for i in word:
+    uppercase = (i == i.upper())
+    if uppercase:
+        char = char + i 
+print(char)
